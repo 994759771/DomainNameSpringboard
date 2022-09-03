@@ -1,0 +1,26 @@
+{
+  "name": "domainnamespringboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node index.js",
+    "run": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/router": "^12.0.0",
+    "@vercel/node": "^2.5.7",
+    "koa": "^2.13.4",
+    "mongodb": "^4.8.1",
+    "mysql": "^2.18.1",
+    "vercel": "^27.3.8"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.5",
+    "@types/koa__router": "^8.0.11",
+    "@types/mysql": "^2.15.21"
+  }
+}
